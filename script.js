@@ -64,7 +64,7 @@ function updateRecords() {
   if (!chart && !$("recordPage").hidden) {
     chart = new window.Chart($("accuracyChart"), {
       type: "pie",
-      data: { labels: ["正解", "不正解"], datasets: [{ data: [stats.correct, stats.wrong], backgroundColor: ["#245c48", "#d38a85"], borderColor: "#ffffff", borderWidth: 3 }] },
+      data: { labels: ["正解", "不正解"], datasets: [{ data: [stats.correct, stats.wrong], backgroundColor: ["#a94712", "#d38a85"], borderColor: "#ffffff", borderWidth: 3 }] },
       options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
     });
   }
