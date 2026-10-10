@@ -2,7 +2,7 @@
 
 // 元のGoogle Sheetsと保存キーを引き継ぎます。列順は「範囲・難易度・問題・答え」。
 const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ26RxB3K0nFf_kd_h36LF0yIoXB4aOixmZFQLSeWmoopr84eRjzX12cWZigAeFxu9yQ_tQrTTAsPlx/pub?output=csv";
-const APP_VERSION = "0.3.0";
+const APP_VERSION = "0.3.1";
 const STORAGE_KEY = "quizApp";
 const $ = id => document.getElementById(id);
 let questions = [], current = null, characters = [], position = 0, timer = null;
